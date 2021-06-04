@@ -15,5 +15,5 @@ web = []
 
 [dependencies]
 epi = "0.12"
-wgpu = "0.8"
+wgpu = { git = "https://github.com/gfx-rs/wgpu", rev = "c7576553ba01eda61c42d2f3f79e1aef70896432" }
 bytemuck = "1.5"
